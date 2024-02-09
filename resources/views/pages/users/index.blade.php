@@ -36,8 +36,7 @@
                 <div class="row mt-4">
                     <div class="col-12">
                         <div class="card">
-                            <div class="card-header">
-                                <h4>All Posts</h4>
+                            <div class="card-header" style="min-height: 20px">
                             </div>
                             <div class="card-body">
                                 <div class="float-left">
