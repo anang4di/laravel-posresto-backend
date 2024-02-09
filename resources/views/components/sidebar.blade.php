@@ -10,7 +10,7 @@
             <li class="menu-header">Dashboard</li>
             <li class="{{ Request::is('dashboard') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ url('dashboard') }}">
-                    <i class="fas fa-fire"></i>
+                    <i class="fas fa-pie-chart"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
@@ -19,6 +19,18 @@
                 <a class="nav-link" href="{{ route('users.index') }}">
                     <i class="fas fa-user"></i>
                     <span>Users</span>
+                </a>
+            </li>
+            <li class="{{ Request::is('products') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('products.index') }}">
+                    <i class="fas fa-cube"></i>
+                    <span>Products</span>
+                </a>
+            </li>
+            <li class="{{ Request::is('categories') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('categories.index') }}">
+                    <i class="fas fa-server"></i>
+                    <span>Categories</span>
                 </a>
             </li>
         </ul>
